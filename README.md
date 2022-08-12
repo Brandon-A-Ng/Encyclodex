@@ -8,6 +8,9 @@ Encyclodex is an easy to use interface replicating the Pokédex of the Generatio
 
 ## Future Plans
 • Functional D-pad feature that can scroll up and down the list
+
 • Rotating Pokéball display when scolling through list
+
 • Additional detail of each Pokémon like abilities, species, footprint, or cry
+
 • Additional Pokémon entries for more Pokémon like Generation 1, 2, or 3 Pokémon
