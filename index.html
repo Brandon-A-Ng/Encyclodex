@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encyclodex</title>
+    <link rel="icon" href="images/icon/wideLens.png"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class= "pokedex-container">
+            <div class= "pokedex_top-plane" id="top-plane">
+                <div class="pokedex_display-top black-box" id="display-top">
+                    <div class="pokedex_pokemon">
+                        <img id= "pokemon-sprite" class="pokedex_pokemon-sprite" src="">
+                    </div>
+                    <div class="pokedex_pokemon-stats">
+                        <div class="pokedex_pokemon-title"> No.
+                            <span id="pokemon-id"></span>
+                            <span id="pokemon-name" class="pokedex_pokemon-name"></span>
+                        </div>
+                        <div id="pokemon-types" class="pokedex_pokemon-li ">
+                            <span class="pokedex_blue-title">Type</span>
+                        </div>
+                        <div class="pokedex_pokemon-li">
+                            <span class="pokedex_blue-title">Height</span>
+                            <span id="pokemon-height"></span>
+                        </div>
+                        <div class="pokedex_pokemon-li">
+                            <span class="pokedex_blue-title">Weight</span>
+                            <span id="pokemon-weight"></span>
+                        </div>
+                    </div>
+                    <div class="pokedex_button-container">
+                        <button type="button" id="gender-button" class="pokedex_button blue display-none" onclick="gender()">
+                            <img id ="gender-logo" class="button-logo" src="images/buttons/male.png">
+                        </button>
+                        <button type="button" id="form-button" class="pokedex_button display-none">
+                            <img id="form-logo" class="button-logo" src="">
+                        </button>
+                    </div> 
+                    <p id="pokemon-desciption" class="pokedex_pokemon-description">
+                    </p>
+                </div>
+            </div>
+            <div class= "pokedex_bottom-plane" id="bottom-plane">
+                <div class="pokedex_display-bottom" id="display-bottom">
+                    <div class="pokedex_search-container">
+                        <input id="search-input" class= "pokedex_search" type="text" placeholder="Search a Pokemon:">
+                        <img class= "books" src="images/display-images/books.png">
+                    </div>
+                    <div id= "pokemon-list" class="pokedex_pokemon-list">
+                        
+                    </div>
+               </div>
+                <img class="pokedex_pokeball" src="images/display-images/pokeball.png">
+            </div>
+        </div>
+        <script src="pokedex.js"></script>
+    </body>
+</html>
