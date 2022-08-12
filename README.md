@@ -2,6 +2,6 @@
 [Encyclodex](https://brandon-a-ng.github.io/Encyclodex/)
 ## Concept
 
-## Function
+## UI
 
 ## Future Plans
