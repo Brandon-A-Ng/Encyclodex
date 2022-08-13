@@ -6,7 +6,7 @@ Encyclodex is a fun interactive website that explores the magical creatures of P
 ## UI
 Encyclodex is an easy to use interface replicating the Pokédex of the Generation 4 (Pokémon Diamond, Pearl, and Platnium) video games.
 
-<img src= "images/readme-images/UI.png" height="350">
+<img src= "images/readme-images/UI.png" height="450">
 
 ## Future Plans
 • Functional D-pad feature that can scroll up and down the list
