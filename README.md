@@ -1,5 +1,5 @@
 # Encyclodex (Encyclopedia + Pokédex)
-Try it out here: [Encyclodex](https://brandon-a-ng.github.io/Encyclodex/)
+Try it out here: [Encyclodex](https://brandonng2.github.io/Encyclodex/)
 ## Concept
 Encyclodex is a fun interactive website that explores the magical creatures of Pokémon. Individuals can learn about the unique and amazing traits of each Pokemon and discover the different forms some Pokemon can take!
 
